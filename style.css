@@ -1,0 +1,71 @@
+#body {
+  background-color: rgb(50, 155, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+#body.fade {
+  opacity: 0;
+}
+#quote-box {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(245, 250, 255);
+  border-radius: 4px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#text {
+  font-size: 1.6em;
+  padding: 1em 1em 1em 1em;
+  color: rgb(50, 155, 255);
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  line-height: 110%;
+}
+#author {
+  margin: 0 1.6em 1.6em 0;
+  text-align: right;
+  color: rgb(50, 155, 255);
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+}
+#twitter {
+  height:1.5em;
+  border: solid #1DA1F2 2px;
+  border-radius: 4px;  
+}
+a {
+  height: 1.6em;
+  width: 1.6em;
+  margin: 0 0 1.6em 1.6em;
+  float: left;
+}
+#new-quote {
+  float: right;
+  margin: 0 1.6em 1.6em 0;
+  font-size: 1em;
+  height: 34px;
+  background-color: rgb(50, 155, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+#sign {
+  font-family: 'Roboto Mono';
+  font-size: 0.4em;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
